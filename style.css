@@ -1,0 +1,221 @@
+<style>
+	* {
+	font-family:verdana;
+	}
+	.nav {
+		background-color:#1C4D8D;
+		width:100%;
+		height:70px;
+		color:white;
+		display:flex;
+		align-items:center;
+		position: fixed;
+		top: 0;
+		z-index: 1000;
+		}
+		html {
+			scroll-behavior: smooth;
+		}
+		
+	.logo {
+	padding-top:5px;
+	padding-left:30px;
+	padding-bottom:10px;
+	text-shadow: 0 0 7px #fff, 0 0 10px #4988C4, 0 0 21px #4909f9;
+	}
+	
+	.menu {
+	margin-left:auto;
+	margin-right: 30px;
+	}
+	
+	.menu ul {
+	list-style:none;
+	display:flex;
+	gap:25px;
+
+	}
+	
+	.menu li a {
+	text-decoration: none;
+	font-size: 15px;
+	background-color: white;
+	color: #35b2f0;
+	padding: 10px 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	}
+	
+	.menu li a:hover {
+	background-color: #4988C4 ;
+	color: white;
+}
+
+	.content {
+	background:linear-gradient(to right, #1C4D8D, #4988C4, white);
+	height:600px;
+	text-align: center;
+	color: white;
+	padding-top: 70px;
+	}
+	
+	.content img {
+	border-radius: 50%;
+	height:150px;
+	width:150px;
+	object-fit: cover;
+	border: 5px solid white;
+	margin-top:70px;
+	margin-bottom:20px;
+	}
+	
+	h1 span:before {
+	content: '';
+	animation: gerak infinite 10s ease;
+	transform: translateY (-50%);
+	color:#1C4D8D;
+	font-size: 40px;
+	}
+	
+	@keyframes gerak {
+		0% {
+		content: 'Selamat Datang';
+	}
+	50% {
+		content: 'Saya Alfira Ramadhani';
+	}
+	100% {
+		content: 'Terimakasih telah mengunjungi web saya!';
+	}
+}
+	
+	
+	.pendidikan {
+	text-align:center;
+	color: #1C4D8D;
+	margin-top:80px;
+	padding: 80px 0;
+	height: auto;
+}
+	.box-pendidikan{
+	display:flex;
+	justify-content: center;
+	gap: 30px;
+	flex-wrap: wrap;
+	margin-top: 80px;
+}
+	.box-pendidikan img {
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
+	margin-bottom: 15px;
+}
+
+	.box-kiri, .box-tengah, .box-kanan{
+	width: 300px;
+	background-color:#EEEEEE;
+	text-align: center;
+	padding: 30px;
+	border-radius:15px;
+}
+	.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+	background-color: #4988C4;
+	color: white;
+}
+		.saran {
+	background-color: #1C4D8D;
+	color: white;
+	padding: 10px 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	display: inline-block;
+	margin-top: 5px;
+	text-decoration: none;
+}
+	.saran:hover {
+	background-color: white;
+	color:#1C4D8D;
+}
+	.biodata {
+		text-align: center;
+		color: #1C4D8D;
+		margin-top: 80px;
+		margin-bottom:80px;
+		height:auto;
+		padding: 80px 0;
+	}
+	
+	.box-biodata {
+		max-width: 900px;
+		background-color: #EEEEEE;
+		text-align: left;
+		padding: 60px;
+		border-radius: 20px;
+		margin: 0 auto;
+		 transition: 0.5s;
+		border: 2px solid lightblue;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	}
+	
+	.box-biodata table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+	
+	.box-biodata td {
+		padding: 15px;
+		font-size: 18px;
+		vertical-align: top;
+		color: #1C4D8D;
+	}
+	
+	.box-biodata tr:hover {
+		background-color: #4988C4;
+		color: white;
+	}
+	
+	.box-biodata tr:hover td {
+    color: white;
+	}
+	.kontak {
+		text-align: center;
+		color: #1C4D8D;
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+	.logoMS {
+		display: flex;
+		justify-content: center;
+		gap: 50px;
+		margin-top: 20px;
+	}
+	
+	.linkMS {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	
+	.linkMS img {
+		width:100px;
+		height: 100px;
+		border-radius: 50%;
+		object-fit: cover;
+		margin-bottom: 10px;
+	}
+	.linkMS a {
+		text-decoration: none;
+		color: white;
+		background-color: #4988C4;
+		padding: 5px 15px;
+		border-radius: 5px;
+	}
+	.linkMS a:hover {
+		background-color: #1C4D8D;
+	}
+		
+	#beranda, #bio, #pendidikan, #contact {
+		scroll-margin-top: 80px;
+	}
+</style>
