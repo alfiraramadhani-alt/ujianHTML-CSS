@@ -52,7 +52,7 @@
 }
 
 	.content {
-	background:linear-gradient(to right, #1C4D8D, #4988C4, #ABE0F0);
+	background:linear-gradient(to right, #1C4D8D, #4988C4, white);
 	height:600px;
 	text-align: center;
 	color: white;
